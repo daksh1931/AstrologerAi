@@ -1,0 +1,21 @@
+{
+  "address": "0x989769bf7e5ff9abd7f5f731b6c500b865955c26",
+  "chat": "https://huggingface.co/gaianet/Qwen1.5-1.8B-Chat-GGUF/resolve/main/Qwen1.5-1.8B-Chat-Q5_K_M.gguf",
+  "chat_batch_size": "4096",
+  "chat_ctx_size": "4096",
+  "description": "This GaiaNet node config with a Qwen 1.5 1.8B model.",
+  "domain": "us.gaianet.network",
+  "embedding": "https://huggingface.co/gaianet/nomic-embed-text-gguf/resolve/main/nomic-embed-text-v1.5.f16.gguf",
+  "embedding_batch_size": "512",
+  "embedding_collection_name": "default",
+  "embedding_ctx_size": "8192",
+  "llamaedge_port": "8080",
+  "prompt_template": "chatml",
+  "qdrant_limit": "3",
+  "qdrant_score_threshold": "0.5",
+  "rag_policy": "system-message",
+  "rag_prompt": "The following text is the context for the user question.\n----------------\n",
+  "reverse_prompt": "",
+  "snapshot": "https://huggingface.co/datasets/max-id/gaianet-qdrant-snapshot/resolve/main/astrodata-32f96d99-b011-4b7b-9cb7-626eb1e8fdc3/astrodata-32f96d99-b011-4b7b-9cb7-626eb1e8fdc3.snapshot",
+  "system_prompt": "You are a professional in astrology & numerology, who can tell people about there signs ."
+}
